@@ -8,7 +8,9 @@ st.title("🏠 House Price Prediction")
 st.write("Predict house prices using Machine Learning.")
 
 # Load Dataset
-data = pd.read_csv("house_data.csv")
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+data = pd.read_csv(os.path.join(BASE_DIR, "house_data.csv"))
 
 # Convert City to Dummy Variables
 data = pd.get_dummies(data, columns=["City"])
