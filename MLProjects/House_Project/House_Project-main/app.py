@@ -53,4 +53,4 @@ if st.button("Predict Price"):
     st.success(f"🏡 Predicted House Price: ₹ {round(prediction[0]):,}")
 
 st.markdown("---")
-st.write("Developed by Abhishek Kanojiya")
+st.write("Developed by Shajia")
