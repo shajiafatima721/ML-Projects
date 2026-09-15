@@ -2,9 +2,7 @@
 
 A Machine Learning project that predicts house prices based on **area, number of bedrooms, and city**. The project uses **Linear Regression** for prediction and **Streamlit** to provide an interactive web application.
 
-## ????? Author
 
-**Shajia Fatima**
 
 ---
 
