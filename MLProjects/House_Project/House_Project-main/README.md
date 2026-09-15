@@ -37,10 +37,10 @@ The main objective of this project is to:
 ## ??? Technologies Used
 
 * **Python**
-* **Pandas** — Data manipulation and preprocessing
-* **Scikit-learn** — Machine Learning
-* **Linear Regression** — Price prediction algorithm
-* **Streamlit** — Interactive web application
+* **Pandas** â€” Data manipulation and preprocessing
+* **Scikit-learn** â€” Machine Learning
+* **Linear Regression** â€” Price prediction algorithm
+* **Streamlit** â€” Interactive web application
 
 ---
 
@@ -48,7 +48,7 @@ The main objective of this project is to:
 
 ```text
 House-Price-Prediction/
-¦
+Â¦
 +-- house_prediction.py     # ML model training and prediction
 +-- app.py                  # Streamlit web application
 +-- house_data.csv          # Dataset
@@ -139,25 +139,25 @@ After clicking **Predict Price**, the application displays the predicted house p
 
 ## ?? How to Run the Project
 
-### Step 1 — Clone the Repository
+### Step 1 â€” Clone the Repository
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-### Step 2 — Open the Project Folder
+### Step 2 â€” Open the Project Folder
 
 ```bash
 cd House-Price-Prediction
 ```
 
-### Step 3 — Install Required Libraries
+### Step 3 â€” Install Required Libraries
 
 ```bash
 pip install pandas scikit-learn streamlit
 ```
 
-### Step 4 — Run the Streamlit App
+### Step 4 â€” Run the Streamlit App
 
 ```bash
 streamlit run app.py
@@ -219,7 +219,7 @@ Possible improvements include:
 * Perform detailed Exploratory Data Analysis (EDA).
 * Handle missing values and outliers.
 * Compare multiple regression algorithms.
-* Evaluate the model using MAE, MSE, and R².
+* Evaluate the model using MAE, MSE, and RÂ².
 * Improve model accuracy through feature engineering.
 * Add data visualizations to the Streamlit application.
 * Save the trained model instead of training it every time the application starts.
